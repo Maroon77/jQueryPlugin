@@ -1,5 +1,5 @@
 $(function(){
 	$("p").click(function(){
-		$(this).trsTips();
+		// $(this).trsTips();
 	});
 });

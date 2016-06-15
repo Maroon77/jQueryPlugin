@@ -84,12 +84,12 @@
                 }, this.opts.timer);
             }
 
-            //考虑iframe嵌套的情况(是该插件里来判断还是自定义参数决定)
+            //考虑iframe嵌套的情况(是该插件里来判断还是自定义参数决定，目前是自定义参数决定)
             trsAlertWrap.append(trsWindow).appendTo($(this.opts.pos));
         },
-        createTips: function(){
-            alert("tips");
-        }
+        // createTips: function(){
+        //     alert("tips");
+        // }
     };
 
     //弹窗插件(弹窗和提示框)
@@ -103,14 +103,14 @@
     };
 
     //提示框插件
-    $.fn.trsTips = function(options) {
-        //实例化对象
-        var trsTipsObj = new alertConstructor(this,options);
-        //调用私有方法
-        trsTipsObj.createTips();
-        //返回this,保持链式效果不被破坏
-        return this;
-    };
+    // $.fn.trsTips = function(options) {
+    //     //实例化对象
+    //     var trsTipsObj = new alertConstructor(this,options);
+    //     //调用私有方法
+    //     trsTipsObj.createTips();
+    //     //返回this,保持链式效果不被破坏
+    //     return this;
+    // };
 
     //设置默认的参数
     $.fn.trsAlert.defaultOpts = {
