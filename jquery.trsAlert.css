@@ -1,0 +1,76 @@
+.trs-alert-wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    /*overflow:hidden;*/
+}
+
+.trs-alert-class {
+    width: 600px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 200px auto;
+}
+
+.trs-alert-class .title {
+    color: #575757;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.trs-alert-class .text {
+    color: #797979;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 300;
+    line-height: normal;
+    margin:20px 0;
+}
+
+.trs-alert-class .text i{
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+/*.trs-alert-class .success {
+    background: url("./images/success.gif") no-repeat;
+}
+
+.trs-alert-class .error {
+    background: url("./images/error.gif") no-repeat;
+}
+
+.trs-alert-class .warning {
+    background: url("./images/warning.gif") no-repeat;
+}*/
+
+.trs-alert-class .btn {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.trs-alert-class .btn .cancel,
+.trs-alert-class .btn .confirm {
+    background-color: #AEDEF4;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Microsoft Yahei";
+    border-radius: 5px;
+    padding: 10px 32px;
+    cursor: pointer;
+    outline: none;
+}
+
+.trs-alert-class .btn .cancel {
+    margin-right: 20px;
+}
